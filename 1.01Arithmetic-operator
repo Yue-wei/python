@@ -1,0 +1,18 @@
++ 加
+- 减
+* 乘
+/ 除
+% 取模（相除后的余数）
+** 取幂（注意 ^ 并不执行该运算，你可能在其他语言中见过这种情形）
+// 相除后向下取整到最接近的整数
+
+
+
+按位运算符的更多信息
+https://wiki.python.org/moin/BitwiseOperators
+
+Python 也遵守一般的数学运算顺序
+https://en.wikipedia.org/wiki/Operation_(mathematics)
+
+Modulo operation
+https://en.wikipedia.org/wiki/Modulo_operation

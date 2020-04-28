@@ -1,0 +1,21 @@
+布尔型运算符、比较运算符和逻辑运算符
+布尔数据类型存储的是值 True 或 False，通常分别表示为 1 或 0。
+
+通常有 6 个比较运算符会获得布尔值：
+
+比较运算符
+符号使用情况	布尔型	运算符
+5 < 3	False	小于
+5 > 3	True	大于
+3 <= 3	True	小于或等于
+3 >= 5	False	大于或等于
+3 == 5	False	等于
+3 != 5	True	不等于
+你需要熟悉三个逻辑运算符：
+
+逻辑使用情况	布尔型	运算符
+5 < 3 and 5 == 5	False	and - 检查提供的所有语句是否都为 True
+5 < 3 or 5 == 5	True	or - 检查是否至少有一个语句为 True
+not 5 < 3	True	not - 翻转布尔
+要详细了解 George Bool 如何改变了这个世界
+https://www.irishtimes.com/news/science/how-george-boole-s-zeroes-and-ones-changed-the-world-1.2014673

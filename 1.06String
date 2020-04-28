@@ -1,0 +1,9 @@
+在 python 中，字符串的变量类型显示为 str。你可以使用双引号 " 或单引号 ' 定义字符串。如果你要创建的字符串包含其中一种引号，你需要确保代码不会出错。
+
+>>> my_string = 'this is a string!'
+>>> my_string2 = "this is also a string!!!"
+你还可以在字符串中使用 \，以包含其中一种引号：
+
+>>> this_string = 'Simon\'s skateboard is in the garage.'
+>>> print(this_string)
+Simon's skateboard is in the garage.

@@ -1,0 +1,21 @@
+数字值可以用到两种 python 数据类型：
+
+int - 表示整数值
+float - 表示小数或浮点数值
+你可以通过以下语法创建具有某个数据类型的值：
+
+x = int(4.7)   # x is now an integer 4
+y = float(4)   # y is now a float of 4.0
+你可以使用函数 type 检查数据类型：
+
+>>> print(type(x))
+int
+>>> print(type(y))
+float
+因为 0.1 的浮点数（或近似值）实际上比 0.1 稍微大些，当我们将好几个这样的值相加时，可以看出在数学上正确的答案与 Python 生成的答案之间有区别。
+
+>>> print(.1 + .1 + .1 == .3)
+False
+
+
+https://docs.python.org/3/tutorial/floatingpoint.html

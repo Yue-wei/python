@@ -1,0 +1,14 @@
+方法就像某些你已经见过的函数：
+
+len("this")
+type(12)
+print("Hello world")
+上述三项都是函数。注意，它们使用了小括号并接受一个参数。
+
+type 和 print 函数可以接收字符串、浮点型、整型和很多其他数据类型的参数，函数 len 也可以接受多种不同数据类型的参数。
+
+python 中的方法和函数相似，但是它针对的是你已经创建的变量。
+方法与特定变量中的数据类型相关。 方法相当于通过.来调用的一种函数。
+例如，lower()是一个字符串方法，对于一个叫 "sample string" 的字符串，它可以这样使用：sample_string.lower()。
+
+https://docs.python.org/3/library/stdtypes.html#string-methods

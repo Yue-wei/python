@@ -1,0 +1,34 @@
+整型
+浮点型
+布尔型
+字符串
+你在之前的视频中，简单了解了 type()，它可以用来检查你所处理的任何变量的数据类型。
+
+>>> print(type(4))
+int
+>>> print(type(3.7))
+float
+>>> print(type('this'))
+str
+>>> print(type(True))
+bool
+你发现，你可以更改变量类型以执行各种不同的操作。例如
+
+"0" + "5"
+结果完全与以下代码的不一样
+
+0 + 5
+你认为以下代码的结果是什么？
+
+"0" + 5
+下面的代码呢：
+
+0 + "5"
+检查变量类型非常重要，可以确保在编程时你所获的结果是你想要的结果。
+
+
+
+
+weekly_sales = int(mon_sales) + int(tues_sales) + int(wed_sales) + int(thurs_sales) + int(fri_sales)
+weekly_sales = str(weekly_sales)  #convert the type back!!
+print("This week's total sales: " + weekly_sales)

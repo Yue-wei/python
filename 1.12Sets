@@ -1,0 +1,26 @@
+集合是一个包含唯一元素的可变无序集合数据类型。集合的一个用途是快速删除列表中的重复项。
+
+numbers = [1, 2, 6, 3, 1, 1, 6]
+unique_nums = set(numbers)
+print(unique_nums)
+输出为：
+
+{1, 2, 3, 6}
+集合和列表一样支持 in 运算符。和列表相似，你可以使用 add 方法将元素添加到集合中，并使用 pop 方法删除元素。但是，当你从集合中拿出元素时，会随机删除一个元素。注意和列表不同，集合是无序的，因此没有“最后一个元素”。
+
+fruit = {"apple", "banana", "orange", "grapefruit"}  # define a set
+
+print("watermelon" in fruit)  # check for element
+
+fruit.add("watermelon")  # add an element
+print(fruit)
+
+print(fruit.pop())  # remove a random element
+print(fruit)
+输出结果为：
+
+False
+{'grapefruit', 'orange', 'watermelon', 'banana', 'apple'}
+grapefruit
+{'orange', 'watermelon', 'banana', 'apple'}
+你可以对集合执行的其他操作包括可以对数学集合执行的操作。可以对集合轻松地执行 union、intersection 和 difference 等方法，并且与其他容器相比，速度快了很多。
